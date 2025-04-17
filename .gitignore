@@ -1,0 +1,67 @@
+# Node modules
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# dotenv environment variables
+.env
+.env.*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Mac system file
+*.DS_Store
+
+# Linux trash
+.Trash-*
+
+# Optional npm cache directory
+.npm
+
+# Parcel cache (se usar Parcel)
+.cache/
+
+# Coverage reports (ex: Jest)
+coverage/
+
+# Optional eslint cache
+.eslintcache
+
+# Vitest
+*.log
+*.tsbuildinfo
+
+# Storybook build
+storybook-static/
+
+# local history (JetBrains IDEs)
+.local-history/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional: yarn.lock, package-lock.json, ou pnpm-lock.yaml se estiver usando outro gerenciador de pacotes
+# (descomente o que for necessário)
+# yarn.lock
+# package-lock.json
+# pnpm-lock.yaml
