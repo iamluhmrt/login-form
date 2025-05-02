@@ -2,6 +2,7 @@ import { useState } from 'react';
 import InputField from '../../components/InputField';
 import LoginButton from '../../components/LoginButton';
 import Message from '../../components/Message';
+import { Link } from 'react-router-dom';
 
 function LoginPage() {
   const [email, setEmail] = useState('');
@@ -48,6 +49,10 @@ function LoginPage() {
       <LoginButton onClick={handleLogin}>Access</LoginButton>
 
       <Message text={message} />
+
+      <p>
+        Don't have an account? <Link to='/register'>Register here</Link>
+      </p>
     </div>
   );
 }
